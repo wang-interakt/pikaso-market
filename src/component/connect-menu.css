@@ -1,0 +1,43 @@
+.connect-wallet-btn {
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 0 !important;
+}
+
+.connect-wallet-btn > p {
+    padding: 0;
+    margin: 0;
+}
+
+.connect-btn-wrapper {
+    width: fit-content;
+    position: relative;
+}
+
+.connect-drop-modal {
+    right: 0;
+    width: 200px;
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 2px 7px 1px #ccc;
+}
+
+.connect-drop-modal > .drop-modal-header {
+    padding: 20px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.connect-drop-modal > .drop-modal-body {
+    padding: 20px 20px 10px;
+}
+
+.connect-drop-modal > .drop-modal-footer {
+    padding: 10px 0 20px;
+    width: fit-content;
+    margin: auto;
+    cursor: pointer;
+}
